@@ -1,0 +1,26 @@
+.pytorch {
+    background: url('../assets/icons/pytorch.svg') no-repeat center;
+}
+
+.tensorflow {
+    background: url('../assets/icons/tensorflow.svg') no-repeat center;
+}
+
+.matlab {
+    background: url('../assets/icons/matlab.svg') no-repeat center;
+}
+
+.latex {
+    background: url('../assets/icons/latex.svg') no-repeat center;
+}
+
+.cpp {
+    background: url('../assets/icons/C++.svg') no-repeat center;
+}
+
+.custom-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    vertical-align: -0.125em;
+}

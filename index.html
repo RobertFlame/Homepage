@@ -50,10 +50,9 @@
                         <!-- Email: <a href="mailto:ziqi.zhao@epfl.ch">ziqi.zhao@epfl.ch</a> -->
                         <!-- Email: ziqi.zhao-at-epfl.ch -->
                     </div>
-                    <p class="lead mb-4">Welcome to my homepage! I'm currently a final year computer science master student at EPFL. </p>
+                    <p class="lead mb-4">Welcome to my homepage! I just graduated from EPFL as a computer science master student. </p>
                     <p class="lead mb-4">
-                        My current research interest is to build reliable and efficient machine learning systems. 
-                        Particularly, I am interested in adversarial robustness, network pruning and network qunatization.
+                        My current research interest is to study the efficiency, robustness, interpretability and privacy of machine learning models. 
                         In general, I am also interested in graph learning and WiFi sensing.
                     </p>
                     <div class="social-icons mb-2">
@@ -61,7 +60,7 @@
                             title="Google Scholar" href="https://scholar.google.com/citations?user=cLDqm1AAAAAJ">
                             <i class="fa fa-graduation-cap"></i></a>
                         <a target="cv" class="social-icon mb-2" data-toggle="tooltip" data-placement="top"
-                            title="CV (last update: 2022.12.6)" href="assets/docs/CV-20221206.pdf">
+                            title="CV (last update: 2023.2.5)" href="assets/docs/CV-20230205.pdf">
                             <!-- <i class="fa fa-graduation-cap"></i> -->
                             <i class="far fa-id-badge"></i></a>
                         <a target="github" class="social-icon mb-2" data-toggle="tooltip" data-placement="top"
@@ -75,7 +74,7 @@
                             <i class="fab fa-twitter"></i></a>
                     </div>
                     <div>
-                        <p>Last update time: 2023.1.31</p>
+                        <p>Last update time: 2023.2.7</p>
                         <p style="text-align:center">Page views this month:</p>
                         <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=280&t=m&d=83WB6-Sm3nFrXtA0URUsM07nBlaRRvJrzrIsUW-5K-A'></script>
                         <!-- width 280 -->
@@ -132,10 +131,12 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Quantized Neural Networks for 6D Pose Estimation</h3>
-                            <div class="subheading mb-2">Master's Thesis, École Polytechnique Fédérale de Lausanne (EPFL) </div>
+                            <div class="subheading mb-2">École Polytechnique Fédérale de Lausanne (EPFL) </div>
                             <ul>
-                                <li>Apply state-of-the-art quantization algorithms to 6D pose estimation models.</li>
-                                <li>Evaluate the sensitivity of different parts of the network against quantization.</li>
+                                <li>Master Thesis supervised by Dr. Mathieu Salzmann in Computer Vision Lab. Score: 5.75/6.</li>
+                                <li>Applied network quantization to 6D pose estimation models to improve efficiency.</li>
+                                <li>Analyzed the sensitivity of different parts of the network against quantization.</li>
+                                <li>Proposed a multi-stage quantization algorithm to improve 1\%-5\% accuracy for different models.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2022 - Janurary 2023</span></div>
@@ -145,9 +146,10 @@
                             <h3 class="mb-0">Pushing the Limits of Optical Character Recognition on Complex Multilingual Documents</h3>
                             <div class="subheading mb-2">École Polytechnique Fédérale de Lausanne (EPFL) </div>
                             <ul>
-                                <li>Train a new Greek OCR model with our ancient Greek commentary dataset.</li>
-                                <li>Finetune an existing Greek OCR model with our dataset and achieve the best performance.</li>
-                                <li>Apply image pre-processing to further improve performance.</li>
+                                <li>Semester Project supervised by Prof. Frédéric Kaplan in Digital Humanities Lab. Score: 5.75/6.</li>
+                                <li>Finetuned Google Tesseract's OCR model for ancient Greek texts to improve overall recognition performance.</li>
+                                <li>Decreased the character error rate (CER) of Greek texts from 4.55% to 1.97% and that of the whole commentary from 8.07% to 3.28%.</li>
+                                <li>Developed an image pre-processing pipeline to further decrease the CER by 1\%.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Feburary 2022 - July 2022</span></div>
@@ -157,8 +159,10 @@
                             <h3 class="mb-0">Network Pruning in Adversarial Training</h3>
                             <div class="subheading mb-2">École Polytechnique Fédérale de Lausanne (EPFL) </div>
                             <ul>
-                                <li>Design a new algorithm to prune a randomly initialized network and achieve adversarial robustness simultaneously.</li>
-                                <li>Compare the new algorithm with SOTA methods of robust network pruning with/without network quantization.</li>
+                                <li>Semester Project supervised by Prof. Sabine Süsstrunk in Image and Visual Representation Lab. Score: 5.75/6.</li>
+                                <li>Proposed an algorithm to find robust subnetworks from randomly-initialized binary networks based on <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Ramanujan_Whats_Hidden_in_a_Randomly_Weighted_Neural_Network_CVPR_2020_paper.html">Strong Lottery Ticket Hypothesis</a>.</li>
+                                <li>Designed an adaptive pruning strategy to balance subnetwork search space and expression power.</li>
+                                <li>The binary subnetworks showed competitive performance among state-of-the-art full-precision ones and saved more than 30% FLOPs.</li>
                                 <li>The work was extended and published on Advances in Neural Information Processing Systems (NeurIPS) 2022. <a href="#robust-binary-models">See the work</a></li>
                             </ul>
                         </div>
@@ -169,7 +173,10 @@
                             <h3 class="mb-0">Floor Identification using Crowdsourced RF Signals</h3>
                             <div class="subheading mb-2">Hong Kong University of Science and Technology (HKUST) </div>
                             <ul>
-                                <li>Help design a novel algorithm to detect users' current floor based on their Wi-Fi Signals.</li>
+                                <li>Research Project supervised by Prof. Gary Shueng Han CHAN.</li>
+                                <li>Proposed a novel algorithm to efficiently and accurately identify a user's current floor using received Wi-Fi signals and limited labels.</li>
+                                <li>Modeled Wi-Fi signals as a bipartite graph and applied network embedding to solve the missing value problem.</li>
+                                <li>Achieved nearly 100\% of identification accuracy and still have over 90% of accuracy when 70% of Wi-Fi access points are missing.</li>
                                 <li>The work was published on the 42nd IEEE International Conference on Distributed Computing Systems (ICDCS) 2022. <a href="#grafics">See the work</a></li>
                             </ul>
                         </div>
@@ -180,8 +187,9 @@
                             <h3 class="mb-0">Wi-Fi Geo-Fencing</h3>
                             <div class="subheading mb-2">Hong Kong University of Science and Technology (HKUST) </div>
                             <ul>
-                                <li>Design a novel and robust algorithm for identifying whether people go out of a predefined geo-fence.</li>
-                                <li>Help collect the data from various settings.</li>
+                                <li>Research Project supervised by Prof. Gary Shueng Han CHAN.</li>
+                                <li>Designed a novel and robust algorithm for identifying whether people go out of a predefined geo-fence.</li>
+                                <li>Helped collect the data from various settings.</li>
                                 <li>Part of the project work was published on IEEE Internet of Things Magazine Special Issue on Smart IoT Solutions for Combating the COVID-19 Pandemic. <a href="#iot-geofencing">See the work</a></li>
                             </ul>
                         </div>
@@ -192,8 +200,9 @@
                             <h3 class="mb-0">Indoor Crowdsourced Wi-Fi Fingerprinting with Network Embedding</h3>
                             <div class="subheading mb-2">Bachelor's Thesis, Hong Kong University of Science and Technology (HKUST) </div>
                             <ul>
-                                <li>Design a novel algorithm to build up an indoor Wi-Fi fingerprinting system with high deployment efficiency.</li>
-                                <li>Conduct extensive experiments to evaluate the performance of the system.</li>
+                                <li>Research Project supervised by Prof. Gary Shueng Han CHAN.</li>
+                                <li>Designed a novel algorithm to build up an indoor Wi-Fi fingerprinting system with high deployment efficiency.</li>
+                                <li>Conducted extensive experiments to evaluate the performance of the system.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2019 - July 2020</span></div>
@@ -203,8 +212,9 @@
                             <h3 class="mb-0">Personalized Running Speed Estimation using Foot Inertial Sensor</h3>
                             <div class="subheading mb-2">École Polytechnique Fédérale de Lausanne (EPFL) </div>
                             <ul>
-                                <li>Implement a running speed personalization model with machine learning.</li>
-                                <li>Analyze the major features that can contribute most to the model and implement several models for comparison.</li>
+                                <li>Semester Project supervised by Prof. Kamiar Aminian in Laboratory of Movement Analysis and Measurement. Score: 6/6</li>
+                                <li>Implemented a running speed personalization model with machine learning.</li>
+                                <li>Analyzed the major features that can contribute most to the model and implement several models for comparison.</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2019 - July 2020</span></div>

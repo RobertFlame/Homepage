@@ -1,5 +1,27 @@
-<!DOCTYPE html>
+<html>
 <meta charset="uft-8">
 <title>Going to RssHub page</title>
-<meta http-equiv="refresh" content="0; url=https://7c15-185-25-195-104.eu.ngrok.io">
-<link rel="canonical" href="https://7c15-185-25-195-104.eu.ngrok.io">
+<head>
+    <script type="text/javascript">
+        function getURL() {
+            var queryStr = window.document.location.search;
+            const base_url = "https://7c15-185-25-195-104.eu.ngrok.io";
+            const bilibili_extension = "/bilibili/user/video/";
+            const urlParams = new URLSearchParams(queryStr);
+            var platform = urlParams.get('platform');
+            var id = urlParams.get('id');
+            if(platform == "bilibili"){
+                return base_url + bilibili_extension + id;
+            }
+            else{
+                alert("Platform not supported!" + platform);
+            }
+        }
+        </script>
+</head>
+<body>
+    <script type="text/javascript">
+        window.location.href=getURL();
+        </script>
+</body>
+</html>

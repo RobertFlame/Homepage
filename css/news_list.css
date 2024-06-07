@@ -1,0 +1,18 @@
+ul.news-ul {
+    list-style-type: none;
+    margin: 0 0 0 -2em;
+}
+
+ul.news-ul li span::before {
+    content: "[";
+    /* text-align: left; */
+}
+
+ul.news-ul li span {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+ul.news-ul li span::after {
+    content: "] ";
+}

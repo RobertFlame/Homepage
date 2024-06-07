@@ -16,6 +16,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -26,46 +27,50 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#news">News</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research">Research</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work-experience">Work Experience</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conference-ddl">Conferences</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work-experience">Work Experience</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#misc">Misc.</a></li>
                 </ul>
             </div>
         </nav>
+
         <!-- Page Content-->
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0 anchor">
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <span class="d-block d-lg-none"><img class="img-fluid-10 img-profile rounded-circle mb-2" src="assets/img/selfie.jpg" alt="My Photo" style="border-radius: 50%" /></span>
-                    <h1 class="mb-0">
-                        Ziqi
-                        <span class="text-primary">Zhao</span>
-                    </h1>
+                    <h1 class="mb-0">Ziqi <span class="text-primary">Zhao</span></h1>
                     <div class="subheading mb-4">
-                        Lausanne, Switzerland
+                        Jilin, China
                         <br>
                         <!-- Email: <a href="mailto:ziqi.zhao@epfl.ch">ziqi.zhao@epfl.ch</a> -->
                         <!-- Email: ziqi.zhao-at-epfl.ch -->
                     </div>
-                    <p class="lead mb-4">Welcome to my homepage! I just graduated from EPFL as a computer science master student and I am currently looking for a Ph.D. position.</p>
+
                     <p class="lead mb-4">
-                        My current research interests are the efficiency, robustness, interpretability and privacy of machine learning models. 
-                        In general, I am also interested in graph learning and WiFi sensing.
+                        Welcome to my homepage! 
+                        I graduated from EPFL in 2023 as a computer science master student, 
+                        and I am actively looking for Ph.D. opportunities.</p>
+                    <p class="lead mb-4">
+                        My current research interests is trustworthy machine learning, with a focus on privacy-preserving federated learning. 
+                        In general, I am also interested in adversarial robustness, model compression, graph learning, large language models, and WiFi sensing.
                     </p>
+
+                    <!-- Quick accesses -->
                     <div class="social-icons mb-2">
                         <a target="google_scholar" class="social-icon mb-2" data-toggle="tooltip" data-placement="top"
                             title="Google Scholar" href="https://scholar.google.com/citations?user=cLDqm1AAAAAJ" style="text-decoration: none">
-                            <!-- <i class="fa fa-graduation-cap"></i></a> -->
                             <i class="ai ai-google-scholar ai-lg"></i></a>
+                        <!-- TODO: CV -->
                         <a target="cv" class="social-icon mb-2" data-toggle="tooltip" data-placement="top"
-                            title="CV (last update: 2023.2.5)" href="assets/docs/CV-20230205.pdf" style="text-decoration: none">
-                            <!-- <i class="fa fa-graduation-cap"></i> -->
+                            title="CV (last update: 2024.6.7)" href="assets/docs/CV-20240607.pdf" style="text-decoration: none">
                             <i class="far fa-id-badge"></i></a>
-                            <!-- <i class="ai ai-cv ai-lg"></i></a> -->
-                            <!-- <i class="fa-solid fa-file-user"></i> -->
                         <a target="github" class="social-icon mb-2" data-toggle="tooltip" data-placement="top"
                             title="GitHub Page" href="https://github.com/RobertFlame">
                             <i class="fab fa-github"></i></a>
@@ -76,59 +81,124 @@
                             title="Twitter Page" href="https://twitter.com/ZiqiZhaoRobert">
                             <i class="fab fa-twitter"></i></a>
                     </div>
+
+                    <!-- TODO: update time -->
                     <div>
-                        <p>Last update time: 2023.3.7</p>
+                        <p>Last update time: 2024.6.7</p>
                         <p style="text-align:center">Page views this month:</p>
                         <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=280&t=m&d=83WB6-Sm3nFrXtA0URUsM07nBlaRRvJrzrIsUW-5K-A'></script>
                         <!-- width 280 -->
                     </div>
+
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- News -->
+            <section class="resume-section" id="news">
+                <div class="resume-section-content">
+
+                    <h2 class="mb-5">News</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <ul class="news-ul">
+                            <!-- <li>
+                                <span>2023.07.01</span>
+                                I am excited to join <a target="cispa" href="https://cispa.de/en">CISPA Helmholtz Center for Information Security</a> as a PhD student! 
+                                I will be advised by <a target="supervisor" href="https://cispa.saarland/group/fritz/">Prof. Dr. Mario Fritz</a> and work on trustworthy machine learning.
+                            </li> -->
+                            <li>
+                                <span>2023.04.10</span>
+                                Our paper <a href="#fis-one">FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals</a> is accepted to <a target="icdsc" href="https://icdcs2023.icdcs.org/">ICDCS 2023</a>!
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
+
                     <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">CISPA Helmholtz Center for Information Security</h3>
+                            <div class="subheading mb-0">Ph.D. in Computer Science</div>
+                            <div>Trustworthy machine learning</div>
+                            <div>Advisor: <a target="supervisor" href="https://cispa.saarland/group/fritz/">Prof. Dr. Mario Fritz</a></div>
+                            <div hidden>Ph.D. Thesis: <a target="phd_thesis" href="assets/docs/theses/PhD Thesis.pdf"></a></div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">October 2023 (Expected) - Now</span>
+                        </div>
+                    </div> -->
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">École Polytechnique Fédérale de Lausanne (EPFL) </h3>
-                            <div class="subheading mb-3">Master of Science in Computer Science</div>
+                            <div class="subheading mb-0">Master of Science in Computer Science</div>
                             <div>Computer Science - Specialization in Data Analytics</div>
-                            <p>GPA: 5.54/6</p>
-                            <div>Master Thesis: Quantized Neural Networks for 6D Pose Estimation</div>
-                            <a target="master_transcript" href="assets/docs/transcripts/Master Transcript.pdf">Transcript</a>
+                            <div>Master Thesis: <a target="master_thesis" href="assets/docs/theses/Master Thesis.pdf">Quantized Neural Networks for 6D Pose Estimation</a></div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - Janurary 2023</span></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">September 2020 - Janurary 2023</span>
+                            <br>
+                            <p style="float:right;text-align: right;">
+                                GPA: 5.54/6, 
+                                <a target="master_transcript" href="assets/docs/transcripts/Master Transcript.pdf">Transcript</a>
+                            </p>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">École Polytechnique Fédérale de Lausanne (EPFL) </h3>
-                            <div class="subheading mb-3">Exchange Program</div>
+                            <div class="subheading mb-0">Exchange Program</div>
                             <div>Computer Science</div>
-                            <p>GPA: 5.58/6</p>
-                            <a target="exchange_transcript" href="assets/docs/transcripts/Exchange Transcript.pdf">Transcript</a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Feburary 2019 - July 2019</span></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">Feburary 2019 - July 2019</span>
+                            <br>
+                            <p style="float:right;text-align: right;"> 
+                                GPA: 5.58/6, 
+                                <a target="exchange_transcript" href="assets/docs/transcripts/Exchange Transcript.pdf">Transcript</a>
+                            </p>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Hong Kong University of Science and Technology (HKUST)</h3>
-                            <div class="subheading mb-3">Bachelor of Science in Computer Science and Mathematics (Double Major)</div>
-                            <div>Overall GPA: 3.62/4.3</div>
-                            <p>First class honor</p>
-                            <div>Computer Science Major GPA: 3.79/4.3</div>
-                            <div>Mathematics (General math track) Major GPA: 3.61/4.3</div>
-                            <a target="bachelor_transcript" href="assets/docs/transcripts/Bachelor Transcript.pdf">Transcript</a>
+                            <div class="subheading mb-0">Bachelor of Science in Computer Science and Mathematics (Double Major)</div>
+                            <div>Computer Science and Mathematics (General Math Track)</div>
+                            <div>Bachelor Thesis: <a target="bachelor_thesis" href="assets/docs/theses/Bachelor Thesis.pdf">Indoor crowdsourced Wi-Fi fingerprinting with network embedding</a></div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2016 - June 2020</span></div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">September 2016 - June 2020</span>
+                            <br>
+                            <p style="float:right;text-align: right;"> 
+                                First class honor. 
+                                <br>
+                                GPA: 3.62/4.3, 
+                                <a target="bachelor_transcript" href="assets/docs/transcripts/Bachelor Transcript.pdf">Transcript</a>
+                            </p> 
+                        </div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
+
             <!-- Research-->
-            <section class="resume-section" id="research">
+            <section hidden class="resume-section" id="research">
                 <div class="resume-section-content">
+
                     <h2 class="mb-5">Research</h2>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Quantized Neural Networks for 6D Pose Estimation</h3>
@@ -142,6 +212,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2022 - Janurary 2023</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Pushing the Limits of Optical Character Recognition on Complex Multilingual Documents</h3>
@@ -155,6 +226,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Feburary 2022 - July 2022</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Network Pruning in Adversarial Training</h3>
@@ -169,6 +241,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Feburary 2021 - July 2021</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Floor Identification using Crowdsourced RF Signals</h3>
@@ -183,6 +256,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2020 - July 2022</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Wi-Fi Geo-Fencing</h3>
@@ -196,6 +270,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2020 - Janurary 2021</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Indoor Crowdsourced Wi-Fi Fingerprinting with Network Embedding</h3>
@@ -208,6 +283,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2019 - July 2020</span></div>
                     </div>
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Personalized Running Speed Estimation using Foot Inertial Sensor</h3>
@@ -223,15 +299,33 @@
                 </div>
             </section>
             <hr class="m-0" />
+
             <!-- Publications-->
             <section class="resume-section" id="publications">
                 <div class="resume-section-content">
+
                     <h2 class="mb-1">Publications</h2>
                     <p class="mb-5">Note: * indicates equal contribution.</p>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0" id="fis-one">	FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals</h3>
+                            <div class="subheading mb-1">Proceedings of the 43rd IEEE International Conference on Distributed Computing Systems (ICDCS) 2023</div>
+                            <div>Weipeng Zhuo, Ka Ho Chiu, Jierun Chen, <u>Ziqi Zhao</u>, S.-H. Gary Chan, Sangtae Ha, Chul-Ho Lee</div>
+                            <p>
+                                <!-- <a target="zhuo2023fisone_pdf" href="" onclick="return false">[PDF]</a> -->
+                                <a target="zhuo2023fisone_code" href="https://ieeexplore.ieee.org/document/10272527">[IEEE Page]</a> 
+                                <a target="zhuo2023fisone_pdf" href="assets/docs/papers/fisone_paper.pdf">[PDF]</a>
+                                <a target="zhuo2023fisone_code" href="https://github.com/SteveZhuo/FIS-ONE">[Code]</a>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2023</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" id="robust-binary-models">Robust Binary Models by Pruning Randomly-Initialized Networks</h3>
-                            <div class="subheading mb-3">Advances in Neural Information Processing Systems (NeurIPS) 2022.</div>
+                            <div class="subheading mb-1">Advances in Neural Information Processing Systems (NeurIPS) 2022.</div>
                             <div>Chen Liu*, <u>Ziqi Zhao</u>*, Sabine Süsstrunk, Mathieu Salzmann</div>
                             <p>
                                 <a target="liu2022robust_openreview" href="https://openreview.net/forum?id=5g-h_DILemH">[OpenReview]</a>
@@ -243,10 +337,11 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2022</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" id="grafics">GRAFICS: Graph Embedding-based Floor Identification Using Crowdsourced RF Signals</h3>
-                            <div class="subheading mb-3">Proceedings of the 42nd IEEE International Conference on Distributed Computing Systems (ICDCS) 2022</div>
+                            <div class="subheading mb-1">Proceedings of the 42nd IEEE International Conference on Distributed Computing Systems (ICDCS) 2022</div>
                             <div>Weipeng Zhuo, <u>Ziqi Zhao</u>, Ka Ho Chiu, Shiju Li, Sangtae Ha, Chul-Ho Lee, S.-H. Gary Chan</div>
                             <p>
                                 <a target="zhuo2022grafics_ieee" href="https://ieeexplore.ieee.org/document/9912243">[IEEE Page]</a>
@@ -257,10 +352,11 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2022</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" id="iot-geofencing">IoT geofencing for COVID-19 home quarantine enforcement</h3>
-                            <div class="subheading mb-3">IEEE Internet of Things Magazine Special Issue on Smart IoT Solutions for Combating the COVID-19 Pandemic, Vol. 3, No. 3, pp. 24-29</div>
+                            <div class="subheading mb-1">IEEE Internet of Things Magazine Special Issue on Smart IoT Solutions for Combating the COVID-19 Pandemic, Vol. 3, No. 3, pp. 24-29</div>
                             <div>Jiajie Tan, Edmund Sumpena, Weipeng Zhuo, <u>Ziqi Zhao</u>, Mengyun Liu, S-H Gary Chan</div>
                             <p><a target="tan2020iot_ieee" href="https://ieeexplore.ieee.org/abstract/document/9241467">[IEEE Page]</a></p>
                         </div>
@@ -269,8 +365,250 @@
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Services -->
+            <section hidden class="resume-section" id="services">
+                <div class="resume-section-content">
+
+                    <h2 class="mb-5">Services</h2>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">TBD</h3>
+                            <div class="subheading mb-3">TBD</div>
+                            Hope I will have services to list here in the future. &#128513
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">TBD</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr hidden class="m-0" />
+
+            <!-- Conference countdowns-->
+            <section hidden class="resume-section" id="conference-ddl">
+                <div id="conference-list" class="resume-section-content">
+
+                    <h2 class="mb-3">Related Conference Deadlines</h2>
+
+                    <!-- NeurIPS -->
+                    <div id="2023-08-02" class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0"><a target="neurips" href="https://neurips.cc/">NeurIPS 2023</a></h3>
+                            <div class="subheading mb-3">Dec.10 - Dec.16, New Orleans</div>
+                        </div>
+                        <!-- Submission -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- abstract -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatAbstract/tac000/tptAbstract/tpc666/iso2023-05-11T20:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                            <!-- paper -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatPaper/tac000/tptPaper/tpc666/iso2023-05-17T20:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                            <!-- supplementary -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatSupplementary/tac000/tptSupplementary/tpc666/iso2023-05-24T20:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                        
+                        <!-- Rebuttal -->
+                        <div class="flex-shrink-0">
+                            <!-- rebuttal begins -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2023-08-02T20:00:00/pa5" allowtransparency="true" frameborder="0" width="151" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2023-08-09T20:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+
+                        <!-- Notification -->
+                        <div class="flex-shrink-0">
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2023-09-22T01:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- ICLR -->
+                    <div id="2023-09-21" class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0"><a target="iclr" href="https://iclr.cc/">ICLR 2024</a></h3>
+                            <div class="subheading mb-3">May 7 - May 11, Vienna</div>
+                        </div>
+                        <!-- Submission -->
+                        <div class="flex-shrink-0">
+                            <!-- Abstract -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatAbstract%20(Est.)/tac000/tptAbstract%20(Est.)/tpc666/iso2023-09-21T00:00:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- Paper -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatPaper%20(Est.)/tac000/tptPaper%20(Est.)/tpc666/iso2023-09-28T00:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+
+                        <!-- Reviews -->
+                        <div hidden class="flex-shrink-0">
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatReviews/tac000/tptReviews/tpc666/iso2023-11-05T01:00:00/pa5" allowtransparency="true" frameborder="0" width="151" height="64"></iframe>
+                        </div>
+
+                        <!-- Decision -->
+                        <div hidden class="flex-shrink-0">
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatDecisions/tac000/tptDecisions/tpc666/iso2024-01-21T01:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- IEEE S&P -->
+                    <div id="2023-12-06" class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0"><a target="oakland" href="https://sp2024.ieee-security.org/">IEEE S&P (Oakland) 2024</a></h3>
+                            <div class="subheading mb-3">May 20 - May 23, San Francisco</div>
+                        </div>
+                        <!-- First Round -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatFirst%20DDL/tac000/tptFirst%20DDL/tpc666/iso2023-04-13T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal begins -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2023-06-19T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2023-06-30T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- notification -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2023-07-10T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- camera ready -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCamera/tac000/tptCamera/tpc666/iso2023-08-18T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                        </div>
+
+                        <!-- Second Round -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatSecond%20DDL/tac000/tptSecond%20DDL/tpc666/iso2023-08-03T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal begins -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2023-10-09T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2023-10-20T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- notification -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2023-10-27T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- camera ready -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCamera/tac000/tptCamera/tpc666/iso2023-12-08T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                        </div>
+
+                        <!-- Third Round -->
+                        <div class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatThird%20DDL/tac000/tptThird%20DDL/tpc666/iso2023-12-06T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal begins -->
+                            <iframe hidden src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2024-02-19T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe hidden src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2024-03-01T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- notification -->
+                            <iframe hidden src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2024-03-08T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- camera ready -->
+                            <iframe hidden src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCamera/tac000/tptCamera/tpc666/iso2024-04-19T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                        </div>
+                        
+                    </div>
+
+                    <!-- ICML -->
+                    <div id="2024-01-09" class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0"><a target="icml" href="https://icml.cc/">ICML 2024</a></h3>
+                            <div class="subheading mb-3">July 21 - July 27, Vienna</div>
+                        </div>
+                        <!-- Submission -->
+                        <div class="flex-shrink-0">
+                            <!-- abstract -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatOpen%20(Est.)/tac000/tptOpen%20(Est.)/tpc666/iso2024-01-09T14:00:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- paper -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatPaper%20(Est.)/tac000/tptPaper%20(Est.)/tpc666/iso2024-01-26T19:59:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                        
+                        <!-- Rebuttal -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- rebuttal begins -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2024-03-13T00:00:00/pa5" allowtransparency="true" frameborder="0" width="151" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2024-03-19T19:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                            <!-- author reviewer discussion ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatDiscussion%20Ends/tac000/tptDiscussion%20Ends/tpc666/iso2024-03-26T19:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                    
+                        <!-- Notification -->
+                        <div hidden class="flex-shrink-0">
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatDecisions/tac000/tptDecisions/tpc666/iso2024-04-24T00:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- USENIX Security -->
+                    <div id="2024-02-08" class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0"><a target="ccs" href="https://www.usenix.org/conference/usenixsecurity24">USENIX Security 2024</a></h3>
+                            <div class="subheading mb-3">Aug. 14 - Aug. 16, Philadelphia</div>
+                        </div>
+                        <!-- Summer DDL -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatSummer%20Paper/tac000/tptSummer%20Paper/tpc666/iso2023-06-06T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal starts -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2023-08-21T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2023-08-23T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- decision -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2023-09-01T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- camera ready -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCamera/tac000/tptCamera/tpc666/iso2023-10-10T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                        </div>
+                        
+                        <!-- Fall DDL -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatFall%20Paper/tac000/tptFall%20Paper/tpc666/iso2023-10-17T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal starts -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2024-01-22T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2024-01-24T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- decision -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2024-02-01T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- camera ready -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCamera/tac000/tptCamera/tpc666/iso2024-03-05T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                        </div>
+
+                        <!-- Winter DDL -->
+                        <div class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatWinter%20Paper/tac000/tptWinter%20Paper/tpc666/iso2024-02-08T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal starts -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2024-04-24T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2024-04-26T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- decision -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatNotification/tac000/tptNotification/tpc666/iso2024-05-08T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- camera ready -->
+                            <iframe hidden src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCamera/tac000/tptCamera/tpc666/iso2024-06-13T23:59:00/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- CCS -->
+                    <div id="2024-01-19" class="d-flex flex-column flex-md-row justify-content-between mb-4">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0"><a target="ccs" href="https://www.sigsac.org/ccs/CCS2024/">CCS 2024</a></h3>
+                            <div class="subheading mb-3">TBD</div>
+                        </div>
+                        <!-- Cycle A -->
+                        <div class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCycleA%20(Est.)/tac000/tptCycleA%20(Est.)/tpc666/iso2024-01-19T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- decision -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCycleA%20Out%20(Est.)/tac000/tptCycleA%20Out%20(Est.)/tpc666/iso2024-03-17T23:59:59/pa5" allowtransparency="true" frameborder="0" width="170" height="64"></iframe>
+                        </div>
+                        
+                        <!-- Cycle B -->
+                        <div hidden class="flex-shrink-0">
+                            <!-- ddl -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatCycleB%20(Est.)/tac000/tptCycleB%20(Est.)/tpc666/iso2024-05-04T23:59:59/pa5" allowtransparency="true" frameborder="0" width="148" height="64"></iframe>
+                            <!-- rebuttal begins -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Begins/tac000/tptRebuttal%20Begins/tpc666/iso2024-06-23T00:00:00/pa5" allowtransparency="true" frameborder="0" width="151" height="64"></iframe>
+                            <!-- rebuttal ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatRebuttal%20Ends/tac000/tptRebuttal%20Ends/tpc666/iso2024-06-27T00:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                            <!-- author reviewer discussion ends -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatDiscussion%20Ends/tac000/tptDiscussion%20Ends/tpc666/iso2024-07-7T23:59:59/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                            <!-- decision -->
+                            <iframe src="https://free.timeanddate.com/countdown/i8vc9ecz/n3399/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc666/pcfff/tcfff/fs100/szw320/szh135/tatDecisions/tac000/tptDecisions/tpc666/iso2024-07-20T00:00:00/pa5" allowtransparency="true" frameborder="0" width="147" height="64"></iframe>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr hidden class="m-0" />
+
             <!-- Work Experience-->
-            <section class="resume-section" id="work-experience">
+            <section hidden class="resume-section" id="work-experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Work Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -287,11 +625,27 @@
                 </div>
             </section>
             <hr class="m-0" />
+
             <!--Miscs-->
             <section class="resume-section" id="misc">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Misc.</h2>
 
+                    <!-- Work Experience -->
+                    <div class="subheading mb-3">Work Experience</div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p class="mb-0">Machine Learning Engineer Summer Internship</p>
+                            <i class="mb-0">Ketl.io, Switzerland</i>
+                            <ul>
+                                <li>Scraped and parsed nearly 500,000 multi-lingual online documents.</li>
+                                <li>Developed a translation and summarization service for legal documents written in Italian, French, German and English.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2021 - September 2021</span></div>
+                    </div>
+
+                    <!-- Programming languages & tools -->
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <p>Proficient:</p>
                     <ul class="list-inline dev-icons">
@@ -354,6 +708,8 @@
                             </a>
                         </li>
                     </ul>
+
+                    <!-- Languages -->
                     <div class="subheading mb-2 ">Languages</div>
                     <ul class="fa-ul mb-3">
                         <li>
@@ -366,6 +722,10 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
+                            German: Beginner
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
                             French: Beginner
                         </li>
                         <li>
@@ -374,6 +734,7 @@
                         </li>
                     </ul>
                     
+                    <!-- Awards -->
                     <div class="subheading mb-2">Awards</div>
                     <ul class="fa-ul mb-3">
                         <li>
@@ -413,12 +774,31 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="subheading mb-2">Other Interests</div>
-                    <p class="mb-3">Apart from studies and researches, I also like to play music. I'm a beginner of piano and violin, and I'm trying to practice them during my spare time.</p>
-                    <!-- <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
+
+                    <!-- Other Interests -->
+                    <!-- <div class="subheading mb-2">Other Interests</div>
+                    <ul class="fa-ul mb-3">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-music"></i></span>
+                            Music: I am an intermediate learner of piano, and a beginner of violin. I am trying to practice them during my spare time.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-camera-retro"></i></span>
+                            Photograph: I love to use camera to record wonderful moments. Currently I do not have a camera on hand, but I am planning to buy one soon.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-utensils"></i></span>
+                            Cooking: I love to cook great Chinese food. I would be happy to share my meals with my friends.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-gamepad"></i></span>
+                            Game: I have an Nintendo Switch. I love the sports games such as Fit Ring Adventure and Just Dance. I also like to play games like Zelda - Tears of the Kingdom, and Splatoon 3.
+                        </li>
+                    </ul> -->
                 </div>
             </section>
         </div>
+
         <!-- jQuery -->
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -433,7 +813,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
         <!-- Custom icons -->
         <link rel="stylesheet" href="css/custom_icons.css">
+        <!-- Style for news list -->
+        <link rel="stylesheet" href="css/news_list.css">
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- JS to sort conferences -->
+        <script src="js/conference_sort.js"></script>
     </body>
 </html>

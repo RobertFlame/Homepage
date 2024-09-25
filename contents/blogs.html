@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-06-07">
-<meta name="description" content=" Hong Kong SAR, China">
 
-<title>Ziqi Zhao's Homepage – Ziqi Zhao (赵梓淇)</title>
+<title>Ziqi Zhao's Homepage – Blogs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,19 +23,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="./assets/img/man.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../assets/img/man.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -56,20 +55,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-shortlist .list');
+    const listingTargetEl = window.document.querySelector('#listing-blogs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-shortlist'] = new List('listing-news-shortlist', options);
+    window['quarto-listings']['listing-blogs'] = new List('listing-blogs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -123,10 +122,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/img/man.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/img/man.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ziqi Zhao’s Homepage</span>
     </a>
   </div>
@@ -136,15 +135,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contents/publications.html"> 
+    <a class="nav-link" href="../contents/publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contents/about.html"> 
+    <a class="nav-link" href="../contents/about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
 </ul>
@@ -157,100 +156,122 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="blog">blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="test">test <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="assets/img/photo2.jpg" class="about-image
-  round " style="height: 8em; width: 8em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ziqi Zhao (赵梓淇)</h1>
-<p class="subtitle lead">PhD Student at HKU</p>
+<h1 class="title">Blogs</h1>
 </div>
-<div>
-  <div class="description">
-    <i class="bi bi-geo-alt-fill"></i> Hong Kong SAR, China
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</div>
-<div class="quarto-title-meta column-page">
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 07, 2024</p>
-    </div>
-  </div>
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 25, 2024</p>
-    </div>
-  </div>
-  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://scholar.google.com/citations?user=cLDqm1AAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard-fill"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://github.com/RobertFlame" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:ziqi.zhao@connect.hku.hk" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="/assets/docs/CV-20240914.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-person-vcard"></i>
-     <span class="about-link-text">CV (Updated: 2024.9.14)</span>
-  </a>
-</div>
+
+
+<p><a href="blogs.xml" class="button-like"><i class="bi bi-rss"></i> Subscribe RSS Feed</a></p>
+<div id="listing-blogs" class="quarto-listing quarto-listing-container-default">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-blogs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-blogs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          Categories
+        </option>
+     </select>
   </div>
-  <div class="about-contents"><div id="homepage">
-<section id="welcome-to-my-homepage" class="level2">
-<h2 data-anchor-id="welcome-to-my-homepage">Welcome to my homepage!</h2>
-<!-- Welcome to my homepage!  -->
-<!-- I am currently a PhD student at XXX, under the supervision of Professor XXX. My research focus on XXX. -->
-<p>I am currently a first-year PhD student in <a href="https://www.hku.hk/">the University of Hong Kong</a>, under the supervision of Professor <a href="https://khchow.com/">Ka-Ho Chow</a> and Professor <a href="https://www.cs.hku.hk/people/academic-staff/smyiu">Siu-Ming Yiu</a>. Previously, I graduated from <a href="https://www.epfl.ch/en/">École Polytechnique Fédérale de Lausanne (EPFL)</a> in 2023 as a computer science master student. I obtained my bachelor from <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a> in 2020, with double major in computer science and mathematics.</p>
-<p>I am working on <strong>Privacy-Preserving Federated Learning (PPFL)</strong>, which aims to detect privacy flaws in federated learning systems and enhance the privacy protection.</p>
-<p>My research interests include but not limited to:</p>
-<ul>
-<li>Federated Learning</li>
-<li>Privacy Attacks and Defenses</li>
-</ul>
-<p><i class="bi bi-info-circle"></i> <strong>News</strong> <a href="./contents/news.html">[View all]</a> <!-- <a href="contents/news.qmd" class="button-like">View all <i class='bi bi-arrow-right-circle'></i></a> --></p>
-<div id="listing-news-shortlist" class="quarto-listing quarto-listing-container-custom">
-<div class="list">
-<p class="news-item" data-index="0" data-categories="PhD" data-listing-date-sort="1727193600000">
-<span class="listing-categories" hidden="">PhD</span> <span class="listing-date" hidden="">2024.9.25</span> <span class="date-tag">2024.9.25</span> I will be joining Professor Ka-Ho Chow’s Research Group in October as a PhD student at the University of Hong Kong.
-</p>
-<p class="news-item" data-index="1" data-categories="Paper" data-listing-date-sort="1681056000000">
-<span class="listing-categories" hidden="">Paper</span> <span class="listing-date" hidden="">2023.4.10</span> <span class="date-tag">2023.4.10</span> Our paper <a href="../assets/docs/papers/fisone_paper.pdf">FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals</a> is accepted to <a href="https://icdcs2023.icdcs.org/">ICDCS 2023</a>!
-</p>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1718035200000" data-listing-file-modified-sort="1718096906845" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="thumbnail">
+<p><a href="../contents/blogs/example-columns.html" class="no-external"></a></p><a href="../contents/blogs/example-columns.html" class="no-external">
+<p class="card-img-top"><img src="../assets/img/emptyimage.png" style="height: 8rem;"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../contents/blogs/example-columns.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../contents/blogs/example-columns.html" class="no-external">Example of Columns in qmd</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../contents/blogs/example-columns.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../contents/blogs/example-columns.html" class="no-external">exmaple</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../contents/blogs/example-columns.html" class="no-external">
+<div class="listing-date">
+Jun 11, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="test,blog" data-listing-date-sort="1717862400000" data-listing-file-modified-sort="1718095703468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<div class="thumbnail">
+<p><a href="../contents/blogs/test-blog.html" class="no-external"></a></p><a href="../contents/blogs/test-blog.html" class="no-external">
+<p class="card-img-top"><img src="../assets/img/selfie.jpg" style="height: 8rem;"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../contents/blogs/test-blog.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../contents/blogs/test-blog.html" class="no-external">test blog</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../contents/blogs/test-blog.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('test'); return false;">
+test
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
+blog
+</div>
+</div>
+<div class="listing-description">
+<a href="../contents/blogs/test-blog.html" class="no-external">test test</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../contents/blogs/test-blog.html" class="no-external">
+<div class="listing-date">
+Jun 9, 2024
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-</section>
-</div></div>
-</div>
-
-<p style="text-align:center">
-Page views this month:
-</p>
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=280&amp;t=m&amp;d=83WB6-Sm3nFrXtA0URUsM07nBlaRRvJrzrIsUW-5K-A"></script>
-<!-- test -->
-
 
 
 
@@ -276,6 +297,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -692,5 +720,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

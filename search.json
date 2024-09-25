@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ziqi Zhao (赵梓淇)",
+    "section": "",
+    "text": "Google Scholar\n  \n  \n    \n     Github\n  \n  \n    \n     Email\n  \n  \n    \n     CV (Updated: 2024.9.14)\n  \n\n  \n  \n\n\n\n\nI am currently a first-year PhD student in the University of Hong Kong, under the supervision of Professor Ka-Ho Chow and Professor Siu-Ming Yiu. Previously, I graduated from École Polytechnique Fédérale de Lausanne (EPFL) in 2023 as a computer science master student. I obtained my bachelor from Hong Kong University of Science and Technology (HKUST) in 2020, with double major in computer science and mathematics.\nI am working on Privacy-Preserving Federated Learning (PPFL), which aims to detect privacy flaws in federated learning systems and enhance the privacy protection.\nMy research interests include but not limited to:\n\nFederated Learning\nPrivacy Attacks and Defenses\n\n News [View all] \n\n\n\nPhD 2024.9.25 2024.9.25 I will be joining Professor Ka-Ho Chow’s Research Group in October as a PhD student at the University of Hong Kong.\n\n\nPaper 2023.4.10 2023.4.10 Our paper FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals is accepted to ICDCS 2023!\n\n\n\nNo matching items\nPage views this month:"
+  },
+  {
+    "objectID": "index.html#welcome-to-my-homepage",
+    "href": "index.html#welcome-to-my-homepage",
+    "title": "Ziqi Zhao (赵梓淇)",
+    "section": "",
+    "text": "I am currently a first-year PhD student in the University of Hong Kong, under the supervision of Professor Ka-Ho Chow and Professor Siu-Ming Yiu. Previously, I graduated from École Polytechnique Fédérale de Lausanne (EPFL) in 2023 as a computer science master student. I obtained my bachelor from Hong Kong University of Science and Technology (HKUST) in 2020, with double major in computer science and mathematics.\nI am working on Privacy-Preserving Federated Learning (PPFL), which aims to detect privacy flaws in federated learning systems and enhance the privacy protection.\nMy research interests include but not limited to:\n\nFederated Learning\nPrivacy Attacks and Defenses\n\n News [View all] \n\n\n\nPhD 2024.9.25 2024.9.25 I will be joining Professor Ka-Ho Chow’s Research Group in October as a PhD student at the University of Hong Kong.\n\n\nPaper 2023.4.10 2023.4.10 Our paper FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals is accepted to ICDCS 2023!\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contents/blogs.html",
+    "href": "contents/blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Subscribe RSS Feed\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nExample of Columns in qmd\n\n\n\n\n\nexmaple\n\n\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\ntest blog\n\n\n\n\n\n\ntest\n\n\nblog\n\n\n\ntest test\n\n\n\n\n\nJun 9, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contents/about.html",
+    "href": "contents/about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "2024      Ph.D. in Computer Science, 2024 -   the University of Hong Kong (HKU), Hong Kong SAR, China Supervisor: Professor Ka-Ho Chow and Professor Siu-Ming Yiu \n\n\n2020 2023     M.Sc. in Computer Science, 2020 - 2023   École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland GPA: 5.54/6. TranscriptThesis: Quantized Neural Networks for 6D Pose Estimation \n\n\n2019.2 2019.7     Exchange Program, 2019.2 - 2019.7   École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland GPA: 5.58/6. Transcript \n\n\n2016 2020     B.Sc. in Computer Science and Mathematics, 2016 - 2020   Hong Kong University of Science and Technology (HKUST), Hong Kong SAR, China GPA: 3.62/4.3, First Class Honor. TranscriptThesis: Indoor Crowdsourced Wi-Fi Fingerprinting with Network Embedding \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contents/about.html#education",
+    "href": "contents/about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "2024      Ph.D. in Computer Science, 2024 -   the University of Hong Kong (HKU), Hong Kong SAR, China Supervisor: Professor Ka-Ho Chow and Professor Siu-Ming Yiu \n\n\n2020 2023     M.Sc. in Computer Science, 2020 - 2023   École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland GPA: 5.54/6. TranscriptThesis: Quantized Neural Networks for 6D Pose Estimation \n\n\n2019.2 2019.7     Exchange Program, 2019.2 - 2019.7   École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland GPA: 5.58/6. Transcript \n\n\n2016 2020     B.Sc. in Computer Science and Mathematics, 2016 - 2020   Hong Kong University of Science and Technology (HKUST), Hong Kong SAR, China GPA: 3.62/4.3, First Class Honor. TranscriptThesis: Indoor Crowdsourced Wi-Fi Fingerprinting with Network Embedding \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contents/about.html#work-experience",
+    "href": "contents/about.html#work-experience",
+    "title": "About Me",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\n2021.7 2021.9     Summer Internship of Machine Learning, 2021.7 - 2021.9   Ketl.io, Geneva, Switzerland I scraped and parsed nearly 500,000 multi-lingual online documents. I also developed a translation and summarization service for legal documents written in Italian, French, German and English. \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contents/about.html#skills",
+    "href": "contents/about.html#skills",
+    "title": "About Me",
+    "section": "Skills",
+    "text": "Skills\n\nProgramming\n\nProficient:\n\n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n\nNo matching items\n\n\n\n\nFamiliar:\n\n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n    \n           \n        \n    \n\n\n\n\nNo matching items\n\n\n\n\n\nLanguages\n\nChinese (Mandarin): Native Speaker\nEnglish: Proficient\nChinese (Cantonese): Beginner\nFrench: Beginner\nGerman: Beginner"
+  },
+  {
+    "objectID": "contents/about.html#awards",
+    "href": "contents/about.html#awards",
+    "title": "About Me",
+    "section": "Awards",
+    "text": "Awards\n\n\n\nHKUST 2019 2016-2019 University’s Scholarship Scheme for Continuing Undergraduate Students, HKUST\n\n\nHK Government 2019 2019 Spring Reaching Out Award, Hong Kong Government\n\n\nHKUST 2017 2017 Spring Dean’s List in Engineering School, HKUST\n\n\nJilin, China 2015 2015 Provincial First Prize, National High Schools Physics Competition, Jilin Province, China\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contents/legacy/news-legacy.html",
+    "href": "contents/legacy/news-legacy.html",
+    "title": "All News",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "contents/talks.html",
+    "href": "contents/talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Subscribe RSS Feed\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "contents/blogs/example-columns.html",
+    "href": "contents/blogs/example-columns.html",
+    "title": "Example of Columns in qmd",
+    "section": "",
+    "text": "Semesters Taught:\n\nFall 2023\nFall 2022\nSpring 2021\nSpring 2020\n\n\n\nProject Showcases:\n\nFall 2023\nFall 2022\nSpring 2021\nSpring 2020\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contents/blogs/test-blog.html",
+    "href": "contents/blogs/test-blog.html",
+    "title": "test blog",
+    "section": "",
+    "text": "Test blog\ntest blog. Can mention education(with theses), work experience, skills, motivation. Can also describe habbits. TODO: add blog section, also try section with figure. Also try to use iconed buttons to replace links in publications. add rss see quarto extensions see columns (observed in teaching section)\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contents/news.html",
+    "href": "contents/news.html",
+    "title": "News",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\nPhD 2024.9.25 2024.9.25 PhDI will be joining Professor Ka-Ho Chow’s Research Group in October as a PhD student at the University of Hong Kong.\n\n\nPaper 2023.4.10 2023.4.10 PaperOur paper FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals is accepted to ICDCS 2023!\n\n\nThesis,Master 2023.1.27 2023.1.27 ThesisMasterI successfully defended my master thesis at EPFL! Check my thesis here.\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "contents/publications.html",
+    "href": "contents/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page lists all my publications.\nNote: \\(*\\) indicates equal contribution.\n\nICDCS 2023  Weipeng Zhuo, Ka Ho Chiu, Jierun Chen, Ziqi Zhao, S.-H. Gary Chan, Sangtae Ha, and Chul-Ho Lee. FIS-ONE: floor identification system with one label for crowdsourced RF signals. In 2023 IEEE 43rd International Conference on Distributed Computing Systems (ICDCS). IEEE, 2023.  View PDF Code \n\n\nNeurIPS 2022  Chen Liu*, Ziqi Zhao*, Sabine Süsstrunk, and Mathieu Salzmann. Robust binary models by pruning randomly-initialized networks. In Advances in Neural Information Processing Systems (NeurIPS). 2022.  View PDF Code Poster Slides \n\n\nICDCS 2022  Weipeng Zhuo, Ziqi Zhao, Ka Ho Chiu, Shiju Li, Sangtae Ha, Chul-Ho Lee, and S-H Gary Chan. GRAFICS: graph embedding-based floor identification using crowdsourced RF signals. In 2022 IEEE 42nd International Conference on Distributed Computing Systems (ICDCS). IEEE, 2022.  View PDF Code Slides \n\n\nIoT-J 2020  Jiajie Tan, Edmund Sumpena, Weipeng Zhuo, Ziqi Zhao, Mengyun Liu, and S-H Gary Chan. IoT geofencing for COVID-19 home quarantine enforcement. IEEE Internet of Things Magazine, 3(3):24–29, 2020.  View \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "contents/examples/test-bib.html",
+    "href": "contents/examples/test-bib.html",
+    "title": "BibTeX references in Quarto",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim urna, dapibus et bibendum vel, consectetur et turpis. Cras a molestie nulla. (Zhuo et al. 2023)"
+  },
+  {
+    "objectID": "contents/examples/test-bib.html#bibtex-references-in-quarto",
+    "href": "contents/examples/test-bib.html#bibtex-references-in-quarto",
+    "title": "BibTeX references in Quarto",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim urna, dapibus et bibendum vel, consectetur et turpis. Cras a molestie nulla. (Zhuo et al. 2023)"
+  }
+]

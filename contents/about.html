@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-06-07">
-<meta name="description" content=" Hong Kong SAR, China">
 
-<title>Ziqi Zhao's Homepage – Ziqi Zhao (赵梓淇)</title>
+<title>Ziqi Zhao's Homepage – About Me</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,19 +23,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="./assets/img/man.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../assets/img/man.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -56,20 +55,132 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-shortlist .list');
+    const listingTargetEl = window.document.querySelector('#listing-education .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-startdate','listing-title','listing-school','listing-location','listing-supervisor','listing-enddate','listing-gpa','listing-thesis',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-description","listing-categories"],
+      searchColumns: ["listing-startdate","listing-title","listing-school","listing-location","listing-supervisor","listing-enddate","listing-gpa","listing-thesis"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-shortlist'] = new List('listing-news-shortlist', options);
+    window['quarto-listings']['listing-education'] = new List('listing-education', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-work .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-startdate','listing-enddate','listing-title','listing-school','listing-location','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-startdate","listing-enddate","listing-title","listing-school","listing-location","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-work'] = new List('listing-work', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-proficient-language .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-icon','listing-tag',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-icon","listing-tag"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-proficient-language'] = new List('listing-proficient-language', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-familiar-language .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-icon','listing-tag',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-icon","listing-tag"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-familiar-language'] = new List('listing-familiar-language', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-awards .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-displayed','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-displayed","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-awards'] = new List('listing-awards', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -83,6 +194,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -123,10 +235,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/img/man.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/img/man.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ziqi Zhao’s Homepage</span>
     </a>
   </div>
@@ -136,15 +248,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contents/publications.html"> 
+    <a class="nav-link" href="../contents/publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contents/about.html"> 
+    <a class="nav-link active" href="../contents/about.html" aria-current="page"> 
 <span class="menu-text">About Me</span></a>
   </li>  
 </ul>
@@ -157,103 +269,247 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#work-experience" id="toc-work-experience" class="nav-link" data-scroll-target="#work-experience">Work Experience</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a>
+  <ul class="collapse">
+  <li><a href="#programming" id="toc-programming" class="nav-link" data-scroll-target="#programming">Programming</a></li>
+  <li><a href="#languages" id="toc-languages" class="nav-link" data-scroll-target="#languages">Languages</a></li>
+  </ul></li>
+  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="assets/img/photo2.jpg" class="about-image
-  round " style="height: 8em; width: 8em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ziqi Zhao (赵梓淇)</h1>
-<p class="subtitle lead">PhD Student at HKU</p>
+<h1 class="title">About Me</h1>
 </div>
-<div>
-  <div class="description">
-    <i class="bi bi-geo-alt-fill"></i> Hong Kong SAR, China
-  </div>
-</div>
-<div class="quarto-title-meta column-page">
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 07, 2024</p>
-    </div>
-  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 25, 2024</p>
+      <p class="date-modified">September 14, 2024</p>
     </div>
   </div>
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://scholar.google.com/citations?user=cLDqm1AAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard-fill"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://github.com/RobertFlame" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:ziqi.zhao@connect.hku.hk" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="/assets/docs/CV-20240914.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-person-vcard"></i>
-     <span class="about-link-text">CV (Updated: 2024.9.14)</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="homepage">
-<section id="welcome-to-my-homepage" class="level2">
-<h2 data-anchor-id="welcome-to-my-homepage">Welcome to my homepage!</h2>
-<!-- Welcome to my homepage!  -->
-<!-- I am currently a PhD student at XXX, under the supervision of Professor XXX. My research focus on XXX. -->
-<p>I am currently a first-year PhD student in <a href="https://www.hku.hk/">the University of Hong Kong</a>, under the supervision of Professor <a href="https://khchow.com/">Ka-Ho Chow</a> and Professor <a href="https://www.cs.hku.hk/people/academic-staff/smyiu">Siu-Ming Yiu</a>. Previously, I graduated from <a href="https://www.epfl.ch/en/">École Polytechnique Fédérale de Lausanne (EPFL)</a> in 2023 as a computer science master student. I obtained my bachelor from <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a> in 2020, with double major in computer science and mathematics.</p>
-<p>I am working on <strong>Privacy-Preserving Federated Learning (PPFL)</strong>, which aims to detect privacy flaws in federated learning systems and enhance the privacy protection.</p>
-<p>My research interests include but not limited to:</p>
-<ul>
-<li>Federated Learning</li>
-<li>Privacy Attacks and Defenses</li>
-</ul>
-<p><i class="bi bi-info-circle"></i> <strong>News</strong> <a href="./contents/news.html">[View all]</a> <!-- <a href="contents/news.qmd" class="button-like">View all <i class='bi bi-arrow-right-circle'></i></a> --></p>
-<div id="listing-news-shortlist" class="quarto-listing quarto-listing-container-custom">
+
+
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<div id="listing-education" class="quarto-listing quarto-listing-container-custom">
 <div class="list">
-<p class="news-item" data-index="0" data-categories="PhD" data-listing-date-sort="1727193600000">
-<span class="listing-categories" hidden="">PhD</span> <span class="listing-date" hidden="">2024.9.25</span> <span class="date-tag">2024.9.25</span> I will be joining Professor Ka-Ho Chow’s Research Group in October as a PhD student at the University of Hong Kong.
-</p>
-<p class="news-item" data-index="1" data-categories="Paper" data-listing-date-sort="1681056000000">
-<span class="listing-categories" hidden="">Paper</span> <span class="listing-date" hidden="">2023.4.10</span> <span class="date-tag">2023.4.10</span> Our paper <a href="../assets/docs/papers/fisone_paper.pdf">FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals</a> is accepted to <a href="https://icdcs2023.icdcs.org/">ICDCS 2023</a>!
-</p>
+<div class="cventry" data-index="0">
+<p><span class="listing-startdate" hidden="">2024</span> <span class="listing-enddate" hidden=""></span> <span class="cventry-logo"> <i class="bi bi-mortarboard-fill"></i> </span> <span class="cventry-content"> Ph.D.&nbsp;in Computer Science, 2024 - <br> <span class="cventry-description"> <em>the University of Hong Kong (HKU), Hong Kong SAR, China</em> </span><span class="cventry-description">Supervisor: Professor <a href="https://khchow.com/">Ka-Ho Chow</a> and Professor <a href="https://www.cs.hku.hk/people/academic-staff/smyiu">Siu-Ming Yiu</a></span> </span></p>
+</div>
+<div class="cventry" data-index="1">
+<p><span class="listing-startdate" hidden="">2020</span> <span class="listing-enddate" hidden="">2023</span> <span class="cventry-logo"> <i class="bi bi-mortarboard-fill"></i> </span> <span class="cventry-content"> M.Sc. in Computer Science, 2020 - 2023 <br> <span class="cventry-description"> <em>École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland</em> </span><span class="cventry-description">GPA: 5.54/6. <a href="../assets/docs/transcripts/Master Transcript.pdf">Transcript</a></span><span class="cventry-description">Thesis: <a href="../assets/docs/theses/Master Thesis.pdf">Quantized Neural Networks for 6D Pose Estimation</a></span> </span></p>
+</div>
+<div class="cventry" data-index="2">
+<p><span class="listing-startdate" hidden="">2019.2</span> <span class="listing-enddate" hidden="">2019.7</span> <span class="cventry-logo"> <i class="bi bi-mortarboard-fill"></i> </span> <span class="cventry-content"> Exchange Program, 2019.2 - 2019.7 <br> <span class="cventry-description"> <em>École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland</em> </span><span class="cventry-description">GPA: 5.58/6. <a href="../assets/docs/transcripts/Exchange Transcript.pdf">Transcript</a></span> </span></p>
+</div>
+<div class="cventry" data-index="3">
+<p><span class="listing-startdate" hidden="">2016</span> <span class="listing-enddate" hidden="">2020</span> <span class="cventry-logo"> <i class="bi bi-mortarboard-fill"></i> </span> <span class="cventry-content"> B.Sc. in Computer Science and Mathematics, 2016 - 2020 <br> <span class="cventry-description"> <em>Hong Kong University of Science and Technology (HKUST), Hong Kong SAR, China</em> </span><span class="cventry-description">GPA: 3.62/4.3, First Class Honor. <a href="../assets/docs/transcripts/Bachelor Transcript.pdf">Transcript</a></span><span class="cventry-description">Thesis: <a href="../assets/docs/theses/Bachelor Thesis.pdf">Indoor Crowdsourced Wi-Fi Fingerprinting with Network Embedding</a></span> </span></p>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
-</div></div>
+<section id="work-experience" class="level2">
+<h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
+<div id="listing-work" class="quarto-listing quarto-listing-container-custom">
+<div class="list">
+<div class="cventry" data-index="0">
+<p><span class="listing-startdate" hidden="">2021.7</span> <span class="listing-enddate" hidden="">2021.9</span> <span class="cventry-logo"> <i class="bi bi-buildings-fill"></i> </span> <span class="cventry-content"> Summer Internship of Machine Learning, 2021.7 - 2021.9 <br> <span class="cventry-description"> <em>Ketl.io, Geneva, Switzerland</em> </span><span class="cventry-description">I scraped and parsed nearly 500,000 multi-lingual online documents. I also developed a translation and summarization service for legal documents written in Italian, French, German and English.</span> </span></p>
 </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<section id="programming" class="level3">
+<h3 class="anchored" data-anchor-id="programming">Programming</h3>
+<section id="proficient" class="level4">
+<h4 class="anchored" data-anchor-id="proficient">Proficient:</h4>
+<div id="listing-proficient-language" class="quarto-listing quarto-listing-container-custom">
+<ul class="list-inline no-bottom-margin">
 
-<p style="text-align:center">
-Page views this month:
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Python">
+        <i class="custom-icon" style="background-image: url(../assets/icons/python.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="PyTorch">
+        <i class="custom-icon" style="background-image: url(../assets/icons/pytorch.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="LaTeX">
+        <i class="custom-icon" style="background-image: url(../assets/icons/latex.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Markdown">
+        <i class="custom-icon" style="background-image: url(../assets/icons/markdown.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="familiar" class="level4">
+<h4 class="anchored" data-anchor-id="familiar">Familiar:</h4>
+<div id="listing-familiar-language" class="quarto-listing quarto-listing-container-custom">
+<ul class="list-inline no-bottom-margin">
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="HTML">
+        <i class="custom-icon" style="background-image: url(../assets/icons/html.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="CSS">
+        <i class="custom-icon" style="background-image: url(../assets/icons/css.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Javascript">
+        <i class="custom-icon" style="background-image: url(../assets/icons/javascript.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Matlab">
+        <i class="custom-icon" style="background-image: url(../assets/icons/matlab.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tensorflow">
+        <i class="custom-icon" style="background-image: url(../assets/icons/tensorflow.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Android">
+        <i class="custom-icon" style="background-image: url(../assets/icons/android.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Java">
+        <i class="custom-icon" style="background-image: url(../assets/icons/java.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+<li class="list-inline-item">
+    <a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="C++">
+        <i class="custom-icon" style="background-image: url(../assets/icons/C++.svg); background-repeat: no-repeat; background-position: center;">   
+        </i>
+    </a>
+</li>
+
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</section>
+<section id="languages" class="level3">
+<h3 class="anchored" data-anchor-id="languages">Languages</h3>
+<ul>
+<li>Chinese (Mandarin): Native Speaker</li>
+<li>English: Proficient</li>
+<li>Chinese (Cantonese): Beginner</li>
+<li>French: Beginner</li>
+<li>German: Beginner</li>
+</ul>
+</section>
+</section>
+<section id="awards" class="level2">
+<h2 class="anchored" data-anchor-id="awards">Awards</h2>
+<div id="listing-awards" class="quarto-listing quarto-listing-container-custom">
+<div class="list">
+<p class="news-item" data-index="0" data-categories="HKUST" data-listing-date-sort="1546272000000">
+<span class="listing-categories" hidden="">HKUST</span> <span class="listing-date" hidden="">2019</span> <span class="date-tag">2016-2019</span> University’s Scholarship Scheme for Continuing Undergraduate Students, HKUST
 </p>
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=280&amp;t=m&amp;d=83WB6-Sm3nFrXtA0URUsM07nBlaRRvJrzrIsUW-5K-A"></script>
-<!-- test -->
+<p class="news-item" data-index="1" data-categories="HK Government" data-listing-date-sort="1546272000000">
+<span class="listing-categories" hidden="">HK Government</span> <span class="listing-date" hidden="">2019</span> <span class="date-tag">2019 Spring</span> Reaching Out Award, Hong Kong Government
+</p>
+<p class="news-item" data-index="2" data-categories="HKUST" data-listing-date-sort="1498838400000">
+<span class="listing-categories" hidden="">HKUST</span> <span class="listing-date" hidden="">2017</span> <span class="date-tag">2017 Spring</span> Dean’s List in Engineering School, HKUST
+</p>
+<p class="news-item" data-index="3" data-categories="Jilin, China" data-listing-date-sort="1420041600000">
+<span class="listing-categories" hidden="">Jilin, China</span> <span class="listing-date" hidden="">2015</span> <span class="date-tag">2015</span> Provincial First Prize, National High Schools Physics Competition, Jilin Province, China
+</p>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- ## Motivation -->
+<!-- ## Misc. -->
+<!-- I will add a few countdown timers here for reminding important dates. If you encounter any problems viewing them, please try reloading this page. -->
+<!-- TODO: conferences / journals to list: neurips, icml, iclr, USENIX security, IEEE S&P, CCS, NDSS, CVPR -->
+<!-- NOTE: counter size: medium -->
+<!-- Fall semester 2024 -->
+<!-- <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-timezone="Asia/Hong_Kong" data-date="2024-10-01 00:00">Date to Start PhD</a> -->
+<!-- <iframe src="https://free.timeanddate.com/countdown/i9esgfpc/n102/cf12/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tatFall%20Semester/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2024-09-01T00:00:00/pd2" allowtransparency="true" frameborder="0" width="121" height="51"></iframe> -->
+<!-- ICML 2025 (guess) -->
+<!-- <iframe src="https://free.timeanddate.com/countdown/i9esgfpc/n3399/cf12/cm0/cu4/ct0/cs1/cac000/co1/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tatICML%202025/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2025-02-01T00:00:00/pd2" allowtransparency="true" frameborder="0" width="124" height="51"></iframe> -->
+<!-- USENIX security 2025 cycle2 (guess) -->
+<!-- <iframe src="https://free.timeanddate.com/countdown/i9esgfpc/n137/cf12/cm0/cu4/ct0/cs1/cac000/co1/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tatUSENIX%202025%20Cycle%202/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2025-01-22T08:59:00/pd2" allowtransparency="true" frameborder="0" width="166" height="51"></iframe> -->
 
 
 
-
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -276,6 +532,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -688,9 +951,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
 
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

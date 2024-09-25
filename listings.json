@@ -1,0 +1,25 @@
+[
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/contents/blogs.html",
+    "items": [
+      "/contents/blogs/example-columns.html",
+      "/contents/blogs/test-blog.html"
+    ]
+  },
+  {
+    "listing": "/contents/about.html",
+    "items": []
+  },
+  {
+    "listing": "/contents/talks.html",
+    "items": []
+  },
+  {
+    "listing": "/contents/news.html",
+    "items": []
+  }
+]

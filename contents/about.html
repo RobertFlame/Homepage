@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.41">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ziqi Zhao's Homepage – About Me</title>
+<title>About Me – Ziqi Zhao’s Homepage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,10 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-083761d4322e0b9256509714e88e2325.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -254,6 +254,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="../contents/publications.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contents/services.html"> 
+<span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../contents/about.html" aria-current="page"> 
@@ -477,16 +481,16 @@ No matching items
 <h2 class="anchored" data-anchor-id="awards">Awards</h2>
 <div id="listing-awards" class="quarto-listing quarto-listing-container-custom">
 <div class="list">
-<p class="news-item" data-index="0" data-categories="HKUST" data-listing-date-sort="1546272000000">
+<p class="news-item" data-index="0" data-categories="SEtVU1Q=" data-listing-date-sort="1546272000000">
 <span class="listing-categories" hidden="">HKUST</span> <span class="listing-date" hidden="">2019</span> <span class="date-tag">2016-2019</span> University’s Scholarship Scheme for Continuing Undergraduate Students, HKUST
 </p>
-<p class="news-item" data-index="1" data-categories="HK Government" data-listing-date-sort="1546272000000">
+<p class="news-item" data-index="1" data-categories="SEslMjBHb3Zlcm5tZW50" data-listing-date-sort="1546272000000">
 <span class="listing-categories" hidden="">HK Government</span> <span class="listing-date" hidden="">2019</span> <span class="date-tag">2019 Spring</span> Reaching Out Award, Hong Kong Government
 </p>
-<p class="news-item" data-index="2" data-categories="HKUST" data-listing-date-sort="1498838400000">
+<p class="news-item" data-index="2" data-categories="SEtVU1Q=" data-listing-date-sort="1498838400000">
 <span class="listing-categories" hidden="">HKUST</span> <span class="listing-date" hidden="">2017</span> <span class="date-tag">2017 Spring</span> Dean’s List in Engineering School, HKUST
 </p>
-<p class="news-item" data-index="3" data-categories="Jilin, China" data-listing-date-sort="1420041600000">
+<p class="news-item" data-index="3" data-categories="SmlsaW4lMkMlMjBDaGluYQ==" data-listing-date-sort="1420041600000">
 <span class="listing-categories" hidden="">Jilin, China</span> <span class="listing-date" hidden="">2015</span> <span class="date-tag">2015</span> Provincial First Prize, National High Schools Physics Competition, Jilin Province, China
 </p>
 </div>
@@ -594,8 +598,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -711,7 +713,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

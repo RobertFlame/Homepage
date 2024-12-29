@@ -70,6 +70,13 @@
     "text": "Subscribe RSS Feed\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
+    "objectID": "contents/blogs/test-blog.html",
+    "href": "contents/blogs/test-blog.html",
+    "title": "test blog",
+    "section": "",
+    "text": "Test blog\ntest blog. Can mention education(with theses), work experience, skills, motivation. Can also describe habbits. TODO: add blog section, also try section with figure. Also try to use iconed buttons to replace links in publications. add rss see quarto extensions see columns (observed in teaching section)\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "contents/blogs/example-columns.html",
     "href": "contents/blogs/example-columns.html",
     "title": "Example of Columns in qmd",
@@ -77,11 +84,25 @@
     "text": "Semesters Taught:\n\nFall 2023\nFall 2022\nSpring 2021\nSpring 2020\n\n\n\nProject Showcases:\n\nFall 2023\nFall 2022\nSpring 2021\nSpring 2020\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "contents/blogs/test-blog.html",
-    "href": "contents/blogs/test-blog.html",
-    "title": "test blog",
+    "objectID": "contents/services.html",
+    "href": "contents/services.html",
+    "title": "Services",
     "section": "",
-    "text": "Test blog\ntest blog. Can mention education(with theses), work experience, skills, motivation. Can also describe habbits. TODO: add blog section, also try section with figure. Also try to use iconed buttons to replace links in publications. add rss see quarto extensions see columns (observed in teaching section)\n\n\n\n\n Back to top"
+    "text": "CVPR 2025"
+  },
+  {
+    "objectID": "contents/services.html#reviewer",
+    "href": "contents/services.html#reviewer",
+    "title": "Services",
+    "section": "",
+    "text": "CVPR 2025"
+  },
+  {
+    "objectID": "contents/services.html#teaching-assistant",
+    "href": "contents/services.html#teaching-assistant",
+    "title": "Services",
+    "section": "Teaching Assistant",
+    "text": "Teaching Assistant"
   },
   {
     "objectID": "contents/news.html",
